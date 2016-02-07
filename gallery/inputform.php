@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>WANGS BACKEND</title>
+<title>A3 BACKEND</title>
 <link rel="stylesheet" href="../css/backend.css">
 </head>
 <body>
