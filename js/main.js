@@ -4,10 +4,10 @@ var slideshow_margin = 0;
 $(document).ready(function() {
     width = $(window).outerWidth();
     height = $(window).outerHeight();
-    var bgimageidx = Math.round(Math.random()*5-0.5)+1;
-    var bgurl = '../img/bg/wang_bckgrnd_00' + bgimageidx + '.jpg';
-    console.log("loading background: " + bgurl);
-    $('#body').css('backgroundImage','url("' + bgurl + '")');
+    // var bgimageidx = Math.round(Math.random()*5-0.5)+1;
+    // var bgurl = '../img/bg/wang_bckgrnd_00' + bgimageidx + '.jpg';
+    // console.log("loading background: " + bgurl);
+    // $('#body').css('backgroundImage','url("' + bgurl + '")');
     // $('#body').css('backgroundImage','url("../img/bg/bg.jpg")');
     init();
 });
