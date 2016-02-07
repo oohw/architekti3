@@ -37,7 +37,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="Content-Language" content="en,nl">
+        <meta http-equiv="Content-Language" content="en,cz">
         <meta name="description" content="Architekti3">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Architekti3</title>
@@ -79,30 +79,45 @@
         ?></div>
        
         <div id="menu">
-	        <a href="#"><div id="menu_logo" class="menuitem" width="50" height="50"><img id="menu_logoimg" src="util/wm_logo2.svg" onerror="this.src='util/wm_logo_w.png'"></div></a>
+	        <a href="#"><div id="menu_logo" class="menuitem" width="50" height="50"><img id="menu_logoimg" src="util/A3_logo_368x70.png" onerror="this.src='util/A3_logo_368x70.png'"></div></a>
 	        <div id="menuas">
 				<div class="menuitem dropTheShadow" id="menuGallery"><a href="gallery.php">GALLERY</a></div>
-				<div class="menuitem dropTheShadow" id="menuFacebook"><a target="_blank" href="https://www.facebook.com/wangmotorcycles/">FACEBOOK</a></div>
-				<div class="menuitem dropTheShadow" id="menuInstagram"><a target="_blank" href="https://instagram.com/wangmotorcycles/">INSTAGRAM</a></div>
+				<div class="menuitem dropTheShadow" id="menuFacebook"><a target="_blank" href="https://www.facebook.com/Architekti3/">FACEBOOK</a></div>
+				<div class="menuitem dropTheShadow" id="menuBlog"><a target="_blank" href="http://architektjanicek.tumblr.com">BLOG</a></div>
 			</div>
 		</div>
 
         <div id="content">
         	<!-- <h1>Wang Motorcycles</h1> -->
             <div class="content_text">
-                <p lang="nl" class="nl">(nl)<br>reparatie, onderhoud, restauratie <nobr>en ombouw</nobr> van motorfietsen.</p><p>Voor ouderwets vakmanschap <nobr>en prijzen.</nobr></p><p>En niet geheel onbelangrijk: <nobr>de beste koffie!</nobr></p>
+                <p lang="cz" class="cz">(cz)<br>
+                    <?php
+                    echo htmlentities('architektonická kancelář s designovým obchodem a nejlepší kávou ve městě!');
+                    ?><br>
+                </p>
             </div>
             <div class="content_text">
-                <p lang="en" class="en">(en)<br>repair, maintenance, restauration <nobr>and customizing</nobr> of motorbikes.</p><p>For oldfashioned craftsmanship <nobr>and prices.</nobr></p><p>And not unimportant: <nobr>the best coffee!</nobr></p>
+                <p lang="en" class="en">(en)<br>architecture bureau with a design shop and the best coffee in town!</p>
             </div>
             <div class="content_text">
                                 <p class="contact">contact<br>
-                                <b>Wang Motorcycles</b><br>
-                                Pastoorswarande 50<br>
-                                2513 TZ Den Haag<br>
-                                The Netherlands<br><br>
-                                +31 (0) 617 458 725<br>
-                                <span id="email" style="height:1em;background-color:rgba(255, 255, 255, 0.1);cursor:text">e-mail</span><br>
+                                <b>Architekti3</b><br>
+                                J. Palacha 954/4<br>
+                                669 02 Znojmo<br>
+                                Czech Republic<br><br>
+                                <?php
+                                echo htmlentities('Ing. arch. Jindřich Janíček');
+                                ?><br>
+                                +420 603 242 540<br>
+                                janicek@architekti3.cz<br><br>
+                                 
+                                <?php
+                                echo htmlentities('Ing. arch. Kamil Švaříček');
+                                ?><br>
+                                +420 731 160 025<br>
+                                svaricek@architekti3.cz<br><br>
+
+                                <!-- <span id="email" style="height:1em;background-color:rgba(255, 255, 255, 0.1);cursor:text">e-mail</span><br> -->
                                 <iframe id="contactMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.0555564882934!2d16.05100211549785!3d48.857150979287326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d5504265587db%3A0x120a116b4f0f7007!2sJ.+Palacha+954%2F4%2C+669+02+Znojmo%2C+Czech+Republic!5e0!3m2!1sen!2snl!4v1454864830303" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>               </p>
             </div>        	
         </div>

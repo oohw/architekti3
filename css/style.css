@@ -72,11 +72,11 @@ body {
 }
 #menuFacebook {
 	position: absolute;
-	top:20px;
+	bottom:20px;
 	right:20px;
 }
-#menuInstagram {
-	bottom:20px;
+#menuBlog {
+	top:20px;
 	right:20px;
 }
 
@@ -151,6 +151,10 @@ body {
 	font-family: 'Cinetype';
 	font-size: 1em;
 	text-transform: uppercase;
+}
+
+.content_text .cz, .content_text .en {
+	font-size: 1.5em;
 }
 
 #content table {

@@ -27,10 +27,10 @@ function init() {
     layout();
 	$('#menu_logo').mouseover(function(){
 		// $('#menu_logo path').css('fill','red');
-		$('#menu_logoimg').attr("src","../util/wm_logo2red.svg");
+		$('#menu_logoimg').attr("src","../util/A3_logo_368x70.png");
 	});
 	$('#menu_logo').mouseout(function(){
-		$('#menu_logoimg').attr("src","../util/wm_logo2.svg");
+		$('#menu_logoimg').attr("src","../util/A3_logo_368x70.png");
 		// $('#menu_logo path').css('fill','black');
 	});
    	$('#email').mouseover(function(event) {
@@ -207,12 +207,20 @@ function animateLoop(object, goal) {
     }
 }
 
+
+
 function resizeMap(){
-    var mh = height-($("#contactMap").offset().top + (height-$("#menuInstagram").offset().top));
+    var mh = height-($("#contactMap").offset().top + (height-$("#menuFacebook").offset().top));
     $("#contactMap").height(mh);
 }
 
 // tools
+
+function htmlEntify(text){
+    return text.replace(/[\u00A0-\u9999<>\&]/gim, function(i) {
+        return '&#'+i.charCodeAt(0)+';';
+    });
+}
 
 jQuery.fn.center = function(doTop, doLeft) {
     // this.css("position","absolute");
